@@ -12,3 +12,14 @@
 
   http://www.imparareaprogrammare.it
 */
+
+const sec = 18485349
+const h = sec / 3600
+const min = sec % 3600 / 60
+const seco = sec % 3600 % 60
+
+console.log('ore' , Math.round (h) );
+console.log( 'minuti', Math.round (min) );
+console.log( 'secondi', Math.round (seco) );
+
+
